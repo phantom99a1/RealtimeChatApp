@@ -5,14 +5,8 @@ D:\Real-time Chat App\RealtimeChatApp\bin\Debug\net8.0\RealtimeChatApp.deps.json
 D:\Real-time Chat App\RealtimeChatApp\bin\Debug\net8.0\RealtimeChatApp.runtimeconfig.json
 D:\Real-time Chat App\RealtimeChatApp\bin\Debug\net8.0\RealtimeChatApp.dll
 D:\Real-time Chat App\RealtimeChatApp\bin\Debug\net8.0\RealtimeChatApp.pdb
-D:\Real-time Chat App\RealtimeChatApp\bin\Debug\net8.0\Microsoft.AspNet.SignalR.Core.dll
-D:\Real-time Chat App\RealtimeChatApp\bin\Debug\net8.0\Microsoft.AspNet.SignalR.SystemWeb.dll
 D:\Real-time Chat App\RealtimeChatApp\bin\Debug\net8.0\Microsoft.OpenApi.dll
-D:\Real-time Chat App\RealtimeChatApp\bin\Debug\net8.0\Microsoft.Owin.dll
-D:\Real-time Chat App\RealtimeChatApp\bin\Debug\net8.0\Microsoft.Owin.Host.SystemWeb.dll
-D:\Real-time Chat App\RealtimeChatApp\bin\Debug\net8.0\Microsoft.Owin.Security.dll
 D:\Real-time Chat App\RealtimeChatApp\bin\Debug\net8.0\Newtonsoft.Json.dll
-D:\Real-time Chat App\RealtimeChatApp\bin\Debug\net8.0\Owin.dll
 D:\Real-time Chat App\RealtimeChatApp\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\Real-time Chat App\RealtimeChatApp\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Real-time Chat App\RealtimeChatApp\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -37,3 +31,5 @@ D:\Real-time Chat App\RealtimeChatApp\obj\Debug\net8.0\refint\RealtimeChatApp.dl
 D:\Real-time Chat App\RealtimeChatApp\obj\Debug\net8.0\RealtimeChatApp.pdb
 D:\Real-time Chat App\RealtimeChatApp\obj\Debug\net8.0\RealtimeChatApp.genruntimeconfig.cache
 D:\Real-time Chat App\RealtimeChatApp\obj\Debug\net8.0\ref\RealtimeChatApp.dll
+D:\Real-time Chat App\RealtimeChatApp\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll
+D:\Real-time Chat App\RealtimeChatApp\obj\Debug\net8.0\RealtimeChatApp.sourcelink.json

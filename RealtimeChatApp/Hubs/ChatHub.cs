@@ -13,6 +13,8 @@ namespace RealtimeChatApp.Hubs
         public async Task JoinSpecificChatRoom(UserConnection connection)
         {
             await Groups.AddToGroupAsync(Context.ConnectionId, connection.ChatRoom);
+            await Clients.Group(connection.ChatRoom)
+                .SendAsync("ReceiveMessage", "admin", $"{connection.UserName} has joined {connection.ChatRoom}");
         }
     }
 }

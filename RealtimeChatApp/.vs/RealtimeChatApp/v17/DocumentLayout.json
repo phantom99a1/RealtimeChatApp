@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Real-time Chat App\\RealtimeChatApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D851F9A4-A9C8-4332-A349-0F254BC7BFFB}|RealtimeChatApp.csproj|d:\\real-time chat app\\realtimechatapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D851F9A4-A9C8-4332-A349-0F254BC7BFFB}|RealtimeChatApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D851F9A4-A9C8-4332-A349-0F254BC7BFFB}|RealtimeChatApp.csproj|d:\\real-time chat app\\realtimechatapp\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D851F9A4-A9C8-4332-A349-0F254BC7BFFB}|RealtimeChatApp.csproj|solutionrelative:hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -83,12 +87,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Real-time Chat App\\RealtimeChatApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Real-time Chat App\\RealtimeChatApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAmwBIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T17:25:03.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ChatHub.cs",
               "DocumentMoniker": "D:\\Real-time Chat App\\RealtimeChatApp\\Hubs\\ChatHub.cs",
               "RelativeDocumentMoniker": "Hubs\\ChatHub.cs",
               "ToolTip": "D:\\Real-time Chat App\\RealtimeChatApp\\Hubs\\ChatHub.cs",
               "RelativeToolTip": "Hubs\\ChatHub.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-24T10:41:43.665Z",
               "EditorCaption": ""
