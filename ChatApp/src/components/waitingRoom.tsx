@@ -5,7 +5,7 @@ interface ChildComponentProps {
     joinChatRoom: (userName: string, chatRoom: string) => Promise<void>; 
 }
 
-const waitingRoom: React.FC<ChildComponentProps> = ({ joinChatRoom }) => {
+const WaitingRoom = ({ joinChatRoom } : ChildComponentProps) => {
   const [userName, setUserName] = useState("");
   const [chatRoom, setChatRoom] = useState("");
   const handleSubmit = async (e : React.FormEvent<HTMLFormElement>) => 
@@ -33,4 +33,4 @@ const waitingRoom: React.FC<ChildComponentProps> = ({ joinChatRoom }) => {
   )
 }
 
-export default waitingRoom
+export default WaitingRoom

@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{D851F9A4-A9C8-4332-A349-0F254BC7BFFB}|RealtimeChatApp.csproj|solutionrelative:hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D851F9A4-A9C8-4332-A349-0F254BC7BFFB}|RealtimeChatApp.csproj|d:\\real-time chat app\\realtimechatapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D851F9A4-A9C8-4332-A349-0F254BC7BFFB}|RealtimeChatApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D851F9A4-A9C8-4332-A349-0F254BC7BFFB}|RealtimeChatApp.csproj|d:\\real-time chat app\\realtimechatapp\\dataservice\\shareddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D851F9A4-A9C8-4332-A349-0F254BC7BFFB}|RealtimeChatApp.csproj|solutionrelative:dataservice\\shareddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -87,14 +87,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Real-time Chat App\\RealtimeChatApp\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Real-time Chat App\\RealtimeChatApp\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA0AAAA",
+              "Title": "SharedDb.cs",
+              "DocumentMoniker": "D:\\Real-time Chat App\\RealtimeChatApp\\DataService\\SharedDb.cs",
+              "RelativeDocumentMoniker": "DataService\\SharedDb.cs",
+              "ToolTip": "D:\\Real-time Chat App\\RealtimeChatApp\\DataService\\SharedDb.cs",
+              "RelativeToolTip": "DataService\\SharedDb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T16:55:05.777Z",
+              "WhenOpened": "2024-12-26T14:13:31.816Z",
               "EditorCaption": ""
             },
             {
@@ -105,9 +105,9 @@
               "RelativeDocumentMoniker": "Hubs\\ChatHub.cs",
               "ToolTip": "D:\\Real-time Chat App\\RealtimeChatApp\\Hubs\\ChatHub.cs",
               "RelativeToolTip": "Hubs\\ChatHub.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAUwBAAAAAwAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAcwBsAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T10:41:43.665Z",
+              "WhenOpened": "2024-12-25T18:11:50.234Z",
               "EditorCaption": ""
             }
           ]

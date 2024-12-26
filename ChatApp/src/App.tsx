@@ -1,30 +1,53 @@
 import { Col, Container, Row } from "react-bootstrap";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import WaitingRoom from "./components/waitingRoom";
 import { useState } from "react";
-import { HubConnection, HubConnectionBuilder, LogLevel } from "@microsoft/signalr";
+import {
+  HubConnection,
+  HubConnectionBuilder,
+  LogLevel,
+} from "@microsoft/signalr";
+import Message from "./interfaces/Message";
+import WaitingRoom from "./components/WaitingRoom";
+import ChatRoom from "./components/ChatRoom";
+
 const App = () => {
   const [connection, setConnection] = useState<HubConnection | null>(null);
+  const [messages, setMessages] = useState<Message[]>([]);
+
   const joinChatRoom = async (userName: string, chatRoom: string) => {
     try {
-        //initiate a connection
-        const connnect = new HubConnectionBuilder()
-                        .withUrl("https://localhost:44355/chat")
-                        .configureLogging(LogLevel.Information)
-                        .build();
-        //set up handler
-        connnect.on("JoinSpecificChatRoom", (userName : string, msg : string) =>{
-            console.log("msg: ", msg);
-        });
-        await connnect.start();
-        await connnect.invoke("JoinSpecificChatRoom", {userName, chatRoom});
+      //initiate a connection
+      const connect = new HubConnectionBuilder()
+        .withUrl("https://localhost:44355/chat")
+        .configureLogging(LogLevel.Information)
+        .build();
+      //set up handler
+      connect.on("JoinSpecificChatRoom", (userName: string, msg: string) => {
+        console.log("msg: ", msg);
+      });
 
-        setConnection(connnect);
+      connect.on("ReceiveSpecificMessage", (userName, message) => {
+        setMessages((messages) => [...messages, { userName, message }]);
+      });
+
+      await connect.start();
+      await connect.invoke("JoinSpecificChatRoom", { userName, chatRoom });
+
+      setConnection(connect);
     } catch (e) {
       console.log(e);
     }
   };
+
+  const sendMessage = async (message: string) => {
+    try {      
+      await connection?.invoke("SendMessage", message);
+    } catch (e) {
+      console.log(e);
+    }
+  };
+
   return (
     <>
       <main>
@@ -34,7 +57,11 @@ const App = () => {
               <h1 className="font-weight-light">Welcome to the F1 chatapp</h1>
             </Col>
           </Row>
-          <WaitingRoom joinChatRoom={joinChatRoom} />
+          {!connection ? (
+            <WaitingRoom joinChatRoom={joinChatRoom} />
+          ) : (
+            <ChatRoom messages={messages} sendMessage={sendMessage} />
+          )}
         </Container>
       </main>
     </>
